@@ -1,0 +1,14 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main(){
+	float a,b,c,d,e,sum,percentage;
+	cout<<"enter the marks of 5 subjects :-";
+	cin>>a>>b>>c>>d>>e;
+	sum=a+b+c+d+e;
+	cout<<"sum=";
+	cout<<sum<<endl;
+	percentage=(sum/500)*100;
+	cout<<"percentage=";
+	cout<<percentage<<endl;	
+	return 0;
+}
