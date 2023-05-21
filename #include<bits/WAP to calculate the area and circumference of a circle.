@@ -1,0 +1,14 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+	float circumference,radius,area;
+	cout<<"enter the value of radius:- ";
+	cin>>radius;
+	area=3.14*radius*radius;
+	circumference=2*3.14*radius;
+	cout<<"area of a circle:- ";
+	cout<<area<<endl;
+	cout<<"circumference of a circle:- ";\
+	cout<<circumference<<endl;
+	return 0;	
+}
