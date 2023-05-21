@@ -1,0 +1,11 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main(){
+	int year;
+	cout<<"enter the value of year:-";
+	cin>>year;
+	if (year%400==0)
+	cout<<"leap year";
+	else
+	cout<<"year is not leap";
+}
