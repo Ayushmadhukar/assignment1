@@ -1,0 +1,11 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main(){
+float Centigrade,Fahrenheit;
+cout<<"enter the temperature in Centigrade:- ";
+cin>>Centigrade;
+Fahrenheit=Centigrade*9/5+32;
+cout<<"temperature in Fahrenheit:- ";
+cout<<Fahrenheit<<endl;
+return 0;
+}
